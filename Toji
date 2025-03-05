@@ -2754,7 +2754,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = --مشية البنات الدلوعين--",
+  Name = "--مشية البنات الدلوعين--",
   Callback = function()
 
 local args = {
