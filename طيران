@@ -138,7 +138,7 @@ nowe = false
 game:GetService("StarterGui"):SetCore("SendNotification", { 
  Title = "Toji ";
  Text = "تم تطوير سكربت من قبل المطور Toji ";
- Icon = "rbxthumb://type=Asset&id=132581937835303&w=150&h=150"})
+ Icon = "rbxthumb://type=Asset&id=117086432101752&w=150&h=150"})
 Duration = 5;
 
 Frame.Active = true -- main = gui
