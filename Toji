@@ -212,7 +212,7 @@ local Paragraph = AddParagraph(Main, {"--تخريب+حماية--"})
 AddButton(Main, {
   Name = "--تهكير السيارات--",
   Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/b7kDC3zp"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tojiBrookhaven/Toji/refs/heads/main/تخريب%20سيارات"))()
   end
 })
 
