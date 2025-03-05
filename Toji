@@ -64,7 +64,7 @@ local Paragraph = AddParagraph(Main, {"✨حساباتي لل توصل معي ل
 AddButton(Main, {
   Name = " انسخ حسابي تيك ",
   Callback = function()
-    setclipboard('bu_p8')
+    setclipboard('asf.69')
   end
 })
 AddButton(Main, {
