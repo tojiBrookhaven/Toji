@@ -233,7 +233,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Fling-GU
 AddButton(Main, {
   Name = "--سكربت مضاد من تطويري--",
   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Brookhaven198/-itachi-iraq/refs/heads/main/مضاد"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tojiBrookhaven/Toji/refs/heads/main/تجربه"))()
   end
 })
 
