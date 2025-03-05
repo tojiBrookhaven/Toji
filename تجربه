@@ -1,0 +1,94 @@
+local menu = Instance.new("ScreenGui")
+menu.Name = "AntiBangFlingMenu"
+menu.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+
+local menuFrame = Instance.new("Frame")
+menuFrame.Name = "MenuFrame"
+menuFrame.Size = UDim2.new(0, 250, 0, 120)
+menuFrame.Position = UDim2.new(0.5, -125, 0.5, -60)
+menuFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+menuFrame.BorderSizePixel = 0
+menuFrame.Parent = menu
+
+
+local borderFrame = Instance.new("Frame")
+borderFrame.Name = "BorderFrame"
+borderFrame.Size = UDim2.new(1, 4, 1, 4)
+borderFrame.Position = UDim2.new(0, -2, 0, -2)
+borderFrame.BackgroundColor3 = Color3.fromHSV(0, 0, 0)
+borderFrame.BorderSizePixel = 0
+borderFrame.Parent = menuFrame
+
+
+local titleLabel = Instance.new("TextLabel")
+titleLabel.Name = "TitleLabel"
+titleLabel.Size = UDim2.new(0, 250, 0, 30)
+titleLabel.Position = UDim2.new(0, 0, 0, 0)
+titleLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+titleLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+titleLabel.Text = "سكربت مضاد | المطور Toji "
+titleLabel.Font = Enum.Font.SourceSans
+titleLabel.TextSize = 18
+titleLabel.Parent = menuFrame
+
+
+local scriptButton = Instance.new("TextButton")
+scriptButton.Name = "ScriptButton"
+scriptButton.Size = UDim2.new(0, 180, 0, 40)
+scriptButton.Position = UDim2.new(0.5, -90, 0.6, -20)
+scriptButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+scriptButton.Text = "تشغيل"
+scriptButton.Font = Enum.Font.SourceSans
+scriptButton.TextSize = 16
+scriptButton.Parent = menuFrame
+
+
+scriptButton.MouseButton1Click:Connect(function()
+    local hrp = game.Players.LocalPlayer.Character.HumanoidRootPart
+    workspace.FallenPartsDestroyHeight = -71717197197197197
+    local lastCFrame = hrp.CFrame
+    hrp.CFrame = CFrame.new(Vector3.new(0, 1989808989808989898, 198198187197917977))
+    wait(0.7)
+    hrp.CFrame = lastCFrame
+    workspace.FallenPartsDestroyHeight = -50081971917917917
+end)
+
+
+local dragInput, dragStart, startPos
+local isDragging = false
+
+local function updateInput(input)
+    local delta = input.Position - dragStart
+    local newPos = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    menuFrame.Position = newPos
+end
+
+menuFrame.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        isDragging = true
+        dragStart = input.Position
+        startPos = menuFrame.Position
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                isDragging = false
+            end
+        end)
+    end
+end)
+
+menuFrame.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+end)
+
+game:GetService("RunService").Stepped:Connect(function()
+    if isDragging and dragInput then
+        updateInput(dragInput)
+    end
+    
+    
+    borderFrame.BackgroundColor3 = Color3.fromHSV(0, 0, 0)
+end)
