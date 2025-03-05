@@ -5060,17 +5060,55 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
   end
 })
+AddTextBox(Main, {
+    Name = " ✨خلي يوزر الاعب✨",
+    Default = "",
+    PlaceholderText = "دخل اسم اللاعب",
+    ClearText = true,
+    Callback = function(value)
+        if value == "" then
+            MakeNotifi({
+                Title = "Erro",
+                Text = "Nome do jogador não foi digitado.",
+                Time = 5
+            })
+            if viewEnabled then
+                toggleView(false)
+            end
+            return
+        end
+
+        selectedViewPlayer = findPlayerByPartialNameOrNickname(value)
+        if selectedViewPlayer then
+            print("Jogador encontrado: " .. selectedViewPlayer.Name)
+            if viewEnabled then
+                toggleView(false)
+                toggleView(true)
+            end
+        else
+            MakeNotifi({
+                Title = "Erro",
+                Text = "Nenhum jogador encontrado com esse nome ou apelido.",
+                Time = 7
+            })
+            if viewEnabled then
+                toggleView(false)
+            end
+        end
+    end
+})
+
 AddButton(Main, {
-  Name = "✨إلغاء اختفاء✨",
+  Name = "✨اختفاء اللاعب✨",
   Callback = function()
     local args = {
     [1] = "CharacterSizeUp",
-    [2] = 1
+    [2] = 6
 }
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+loadstring(game:HttpGet("https://pastebin.com/raw/R5yimwnZ"))()
   end
 })
+
 -- Variável para controlar o estado do Noclip
 local noclipEnabled = false
 local runService = game:GetService("RunService")
@@ -5110,146 +5148,4 @@ local function onNoclipToggle(value)
     end
 end
 
--- Adiciona o botão de alternância "Noclip"
-local Toggle = AddToggle(Main, {
-    Name = " اخترق الجدار",
-    Default = false,
-    Callback = onNoclipToggle
-})
-
-
--- Made By HackerXPrince
-
-local Players = game:GetService("Players")
-local player = Players.LocalPlayer
-
--- ScreenGui
-local screenGui = Instance.new("ScreenGui", player.PlayerGui)
-screenGui.Name = "BangGui By HackerXPrince"
-
--- Frame Gui
-local frame = Instance.new("Frame", screenGui)
-frame.Size = UDim2.new(0, 300, 0, 400)  -- Width 300, Height 400
-frame.Position = UDim2.new(0.5, -150, 0.5, -200)
-frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)  -- Color
-frame.BorderSizePixel = 2
-frame.Active = true  -- Required for drag functionality
-frame.Draggable = true -- Makes the GUI draggable
-
--- A TextBox for entering the target's name
-local nameBox = Instance.new("TextBox", frame)
-nameBox.Size = UDim2.new(0.8, 0, 0.15, 0)
-nameBox.Position = UDim2.new(0.1, 0, 0.1, 0)
-nameBox.PlaceholderText = "Enter target player name"
-nameBox.Text = ""
-nameBox.TextColor3 = Color3.new(1, 1, 1)
-nameBox.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-
--- label with the text "Made By HackerXPrince"
-local label = Instance.new("TextLabel", frame)
-label.Size = UDim2.new(1, 0, 0.1, 0)
-label.Position = UDim2.new(0, 0, 0, 0)
-label.Text = "Made By HackerXPrince"
-label.TextColor3 = Color3.fromRGB(0, 255, 0)  -- Green text
-label.TextSize = 14
-label.TextXAlignment = Enum.TextXAlignment.Left
-label.BackgroundTransparency = 1  -- No background
-
--- Button to trigger the "bang" action
-local bangButton = Instance.new("TextButton", frame)
-bangButton.Size = UDim2.new(0.8, 0, 0.2, 0)
-bangButton.Position = UDim2.new(0.1, 0, 0.3, 0)
-bangButton.Text = "Bang Player"
-bangButton.TextColor3 = Color3.new(1, 1, 1)
-bangButton.BackgroundColor3 = Color3.fromRGB(40, 120, 255)  -- Blue color similar to ChatGPT chat color
-
--- Button to trigger the "unbang" action
-local unbangButton = Instance.new("TextButton", frame)
-unbangButton.Size = UDim2.new(0.8, 0, 0.2, 0)
-unbangButton.Position = UDim2.new(0.1, 0, 0.6, 0)
-unbangButton.Text = "Unbang Player"
-unbangButton.TextColor3 = Color3.new(1, 1, 1)
-unbangButton.BackgroundColor3 = Color3.fromRGB(100, 200, 100)  -- Green color similar to ChatGPT chat color
-
--- Variable to keep track of the "bang" state
-local isBanging = false
-local currentTarget = nil
-local bangCoroutine = nil
-
--- Function to "bang" a player
-local function bangPlayer(targetName)
-    local targetPlayer = Players:FindFirstChild(targetName)
-    if not targetPlayer then
-        warn("Player not found!")
-        return
-    end
-
-    local targetCharacter = targetPlayer.Character
-    local yourCharacter = player.Character
-
-    if not targetCharacter or not yourCharacter then
-        warn("Character not found!")
-        return
-    end
-
-    -- Attach the "butt" to the target's back
-    local rootPart = yourCharacter:FindFirstChild("HumanoidRootPart")
-    local targetRoot = targetCharacter:FindFirstChild("HumanoidRootPart")
-
-    if rootPart and targetRoot then
-        isBanging = true
-        while isBanging do
-            if not targetCharacter.Parent then
-                warn("Target character is gone!")
-                break
-            end
-
-            -- Move your character to stay 3x closer to the target's back
-            rootPart.CFrame = targetRoot.CFrame * CFrame.new(0, 0, 2) -- Three times closer
-            wait(0.02) -- Faster updates for smoother movement
-
-            -- Perform the "banging" motion
-            rootPart.CFrame = rootPart.CFrame * CFrame.new(0, 0, 3) -- Forward motion
-            wait(0.01)
-            rootPart.CFrame = rootPart.CFrame * CFrame.new(0, 0, 3) -- Backward motion
-            wait(0.01)
-        end
-    else
-        warn("Could not attach parts!")
-    end
-end
-
--- Function to stop the "bang" action and return to the original position
-local function unbangPlayer()
-    isBanging = false
-    if currentTarget then
-        local yourCharacter = player.Character
-        local rootPart = yourCharacter:FindFirstChild("HumanoidRootPart")
-
-        if rootPart then
-            -- Move the character back to its original position or stop the action
-            -- You can set the character back to a default position (e.g., standing upright)
-            -- Here I'm using a simple stop and reset motion.
-            rootPart.CFrame = rootPart.CFrame * CFrame.new(0, 0, -5) -- Move the character back
-        end
-    end
-end
-
--- Connect the "bang" button to the function
-bangButton.MouseButton1Click:Connect(function()
-    local targetName = nameBox.Text
-    if targetName and targetName ~= "" then
-        currentTarget = targetName
-        if not isBanging then
-            bangCoroutine = coroutine.create(function()
-                bangPlayer(targetName)
-            end)
-            coroutine.resume(bangCoroutine)
-        end
-    end
-end)
-
--- Connect the "unbang" button to the function
-unbangButton.MouseButton1Click:Connect(function()
-    unbangPlayer()
-end)
+https://pastebin.com/raw/R5yimwnZ
