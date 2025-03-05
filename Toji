@@ -1,25 +1,25 @@
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
 wait(0.1)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "🗿🗿 ";
-    Text = " اشتركو قناتي تيك 🗿 "; -- ARAB TEAM
+    Title = "Toji ";
+    Text = " لقد تم التفعيل "; -- ARAB TEAM
     Duration = 5;
 })
 local args = {
     [1] = "RolePlayName",
-    [2] = "✨ شكرآ لاستخدامك السكربت اتمنى ان يعجبك✨"
+    [2] = "تم تفعيل السكربت"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 wait(0.1)
 local args = {
     [1] = "RolePlayBio",
-    [2] = "✨ سكربـت المطـور ITACHI✨"}
+    [2] = "👻سكربت المطور Toje👻"}
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "صنع المطور ITACHI  ";
+    Title = "تم تطوير سكربت من قبل toji ";
     Text = " تم تفعيل السكربت "; -- ARAB TEAM
     Duration = 5;
 })
@@ -27,8 +27,8 @@ game.StarterGui:SetCore("SendNotification", {
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Brookhaven198/-itachi-iraq/refs/heads/main/UZuJkcKv.txt")))()
 MakeWindow({
   Hub = {
-    Title = "سكربت ITACHI | SCRPIT ITACHI  ",
-    Animation = "ITACHI ✨ "
+    Title = "سكربت toji | SCRPIT toji  ",
+    Animation = "toji 👻 "
   },
   Key = {
     KeySystem = false,
@@ -55,7 +55,7 @@ MinimizeButton({
 })
 
 
-local Main = MakeTab({Name = "👤الحقوق👤"})
+local Main = MakeTab({Name = "-الحقوق-"})
 local Image = AddImageLabel(Main, {
   Name = "ITACHI  KING ",
   Image = "rbxassetid://132581937835303"
@@ -74,209 +74,209 @@ AddButton(Main, {
   end
 })
 
-local Main = MakeTab({Name = "✨Brookhaven✨"})
+local Main = MakeTab({Name = "--Brookhaven--"})
 AddButton(Main, {
-  Name = "✨سكربت Astro hub✨",
+  Name = "--سكربت Astro hub--",
   Callback = function()
     loadstring(game:HttpGet("https://qu.ax/cBtZP.txt"))() 
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت Chaos Hub✨",
+  Name = "--سكربت Chaos Hub--",
   Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Chaos-Hub-V1-29676"))() 
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت جودة✨",
+  Name = "--سكربت جودة--",
   Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rtx-graphics-25102"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت رقصات✨",
+  Name = "--سكربت رقصات--",
   Callback = function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Baseplate-Fe-All-Emote-7386"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨ مشيات ✨",
+  Name = "-- مشيات --",
   Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AFEM-14048"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت نسخ سكنـات✨",
+  Name = "--سكربت نسخ سكنـات--",
   Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت جل😐✨",
+  Name = "--سكربت جل😐--",
   Callback = function()
     loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت قتل وسحب✨",
+  Name = "--سكربت قتل وسحب--",
   Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SnoobG/Lua-Script-s/refs/heads/main/BrookHaven%20TvonHub'))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت الهلال✨",
+  Name = "--سكربت الهلال--",
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت  رحمة 1✨",
+  Name = "--سكربت  رحمة 1--",
   Callback = function()
     print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت رحمة2✨",
+  Name = "--سكربت رحمة2--",
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VR7ss/OMK/refs/heads/main/VR7-ON-TOP"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت اختفاء✨",
+  Name = "--سكربت اختفاء--",
   Callback = function()
     loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨2سكربت اختفاء✨",
+  Name = "--2سكربت اختفاء--",
   Callback = function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./dbb6ce6f6cee4f7a5c9e20d7b88e83db2a93bf25/Invisible%20GUI'))()
   end
 })
 
 AddButton(Main, {
-  Name = " ✨سكربت طيران كنبة ✨",
+  Name = " --سكربت طيران كنبة--",
   Callback = function()
     loadstring(game:HttpGet('https://pastebin.com/raw/TXMNj1yy'))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت طيران✨",
+  Name = "--سكربت طيران--",
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Brookhaven198/-itachi-iraq/refs/heads/main/طيران%20صنعي"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨ازالة لاق✨",
+  Name = "--ازالة لاق--",
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
   end
 })
 
 AddButton(Main, {
-  Name = " ✨ سكربـت اغاني ✨",
+  Name = " --سكربـت اغاني--",
   Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
   end
 })
 AddButton(Main, {
-  Name = " ✨سكربت سرعه سياره✨",
+  Name = " --سكربت سرعه سياره--",
   Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت شفت ✨ ",
+  Name = "--سكربت شفت -- ",
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sector9922/SECTOR-SHIFT-LOCK/main/SECTOR%20SHIFT%20LOCK"))()
   end
 })
 
-local Main = MakeTab({Name = "✨ صملات+تخريب+حماية✨"})
-local Paragraph = AddParagraph(Main, {"✨تخريب+حماية✨ "})
+local Main = MakeTab({Name = "--صملات+تخريب+حماية--"})
+local Paragraph = AddParagraph(Main, {"--تخريب+حماية--"})
 AddButton(Main, {
-  Name = "✨تهكير السيارات✨ ",
+  Name = "--تهكير السيارات--",
   Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/b7kDC3zp"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سـكـربـت يـقـتـل الـنـاس ب كـنـبـه✨ ",
+  Name = "--سـكـربـت يـقـتـل الـنـاس ب كـنـبـه--",
   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت مضاد✨",
+  Name = "--سكربت مضاد--",
   Callback = function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Fling-GUI-10927"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربت مضاد  صنعي✨",
+  Name = "--سكربت مضاد من تطويري--",
   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Brookhaven198/-itachi-iraq/refs/heads/main/مضاد"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨سكربـت محد يقدر يطيركـك✨ ",
+  Name = "--سكربـت محد يقدر يطيركـك--",
   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() 
   end
 })
 
-local Paragraph = AddParagraph(Main, {"✨صملات متنوعة✨ "})
+local Paragraph = AddParagraph(Main, {"--صملات متنوعة-- "})
 AddButton(Main, {
-  Name = "✨AFK[1]✨ ",
+  Name = "AFK[1] ",
   Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AntiAFK-script-18076"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨AFK [2]✨ ",
+  Name = "AFK [2] ",
   Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-RBX-Anti-Afk-script-23931"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨AFK [3]✨ ",
+  Name = "AFK [3] ",
   Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-afk-script-5795"))()
   end
 })
 
 AddButton(Main, {
-  Name = "✨AFK [4]✨ ",
+  Name = "AFK [4] ",
   Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-asgf-syugfGF-v-5831"))()
   end
 })
 
-local Main = MakeTab({Name = "✨ رؤوس ورجل✨"})
-local Paragraph = AddParagraph(Main, {"✨الرؤوس✨", "bom dia meus manos"})
+local Main = MakeTab({Name = "-- رؤوس ورجل--"})
+local Paragraph = AddParagraph(Main, {"-الرؤوس-", "bom dia meus manos"})
 AddButton(Main, {
-  Name = "✨راس روبوت✨ ",
+  Name = "راس روبوت",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
@@ -295,7 +295,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = "✨راس المخفي✨ ",
+  Name = "راس المخفي ",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
@@ -314,7 +314,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = "✨راس رول-كوبي✨ ",
+  Name = "راس رول-كوبي ",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
@@ -333,7 +333,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = " ✨راس عيون زرقاء✨ ",
+  Name = " راس عيون زرقاء ",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
@@ -351,9 +351,9 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
   end
 })
-local Paragraph = AddParagraph(Main, {"✨الارجل✨", "bom dia meus manos"})
+local Paragraph = AddParagraph(Main, {"الارجل", "bom dia meus manos"})
 AddButton(Main, {
-  Name = "✨رجل مقطوع✨",
+  Name = "رجل مقطوع",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
@@ -372,7 +372,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = "✨رجل العظام رصاصي✨",
+  Name = "رجل العظام رصاصي",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
@@ -391,7 +391,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = "✨رجل العظام الاسود✨",
+  Name = "رجل العظام الاسود",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
@@ -410,7 +410,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = "✨رجل رول✨",
+  Name = "رجل رول",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
@@ -428,11 +428,11 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
   end
 })
-local Main = MakeTab({Name = "✨الاجسام✨"})
-local Paragraph = AddParagraph(Main, {"✨اجسام بنات✨ "})
+local Main = MakeTab({Name = "--الاجسام--"})
+local Paragraph = AddParagraph(Main, {"--اجسام بنات--"})
 
 AddButton(Main, {
-  Name = "✨جسم بنت ايمو✨",
+  Name = "جسم بنت ايمو",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -453,7 +453,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 AddButton(Main, {
-  Name = "✨جسم بنت خصر ضعيف ✨",
+  Name = "جسم بنت خصر ضعيف ",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -473,7 +473,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = "✨جسم بنت  ✨",
+  Name = "1جسم بنت  ",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -494,7 +494,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 AddButton(Main, {
-  Name = "✨جسم بنت يد صغيره ✨",
+  Name = "2جسم بنت ",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -515,7 +515,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 AddButton(Main, {
-  Name = "✨جسم بنت الدلوعه ✨",
+  Name = "جسم بنت 3",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -536,7 +536,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 AddButton(Main, {
-  Name = "✨جسم بنت صغير✨",
+  Name = "4جسم بنت",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -556,10 +556,10 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 
-local Paragraph = AddParagraph(Main, {"✨اجـسـام ولـد✨"})
+local Paragraph = AddParagraph(Main, {"--اجـسـام ولـد--"})
 
 AddButton(Main, {
-  Name = "✨S15جسم ولد✨",
+  Name = "S15جسم ولد",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -580,7 +580,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 AddButton(Main, {
-  Name = "✨جسم ولد ضعيف✨",
+  Name = "جسم ولد ضعيف",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -601,7 +601,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 AddButton(Main, {
-  Name = "✨جسم ولد كوبي✨",
+  Name = "جسم ولد كوبي",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -623,7 +623,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 
 
 AddButton(Main, {
-  Name = "✨جسم ولد رول✨",
+  Name = "جسم ولد رول",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -644,7 +644,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 AddButton(Main, {
-  Name = "✨جسم ولد معضل✨",
+  Name = "جسم ولد معضل",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -664,10 +664,10 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 
-local Paragraph = AddParagraph(Main, {"✨اجسام اقزام + هامستر✨"})
+local Paragraph = AddParagraph(Main, {"--اجسام اقزام + هامستر--"})
 
 AddButton(Main, {
-  Name = "✨جـسـم الـقـزم✨",
+  Name = "جـسـم الـقـزم",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -687,7 +687,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 end})
 
 AddButton(Main, {
-  Name = "✨جـسـم الـقـزم مـتـوسـط✨ ",
+  Name = "جـسـم الـقـزم مـتـوسـط ",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -708,7 +708,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 AddButton(Main, {
-  Name = "✨جـسـم الـقـزم الـقـصـيـر✨",
+  Name = "جـسـم الـقـزم الـقـصـيـر",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -728,7 +728,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = "✨جـسـم الـقـزم ✨",
+  Name = "جـسـم الـقـزم ",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -748,7 +748,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = "✨جـسـم الـهـامـسـتـر ✨",
+  Name = "جـسـم الـهـامـسـتـر ",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -768,10 +768,10 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 
-local Main = MakeTab({Name = "✨سكنات ايمو✨"})
-local Paragraph = AddParagraph(Main, {"✨حذف كل الاشياء الي في اليد✨"})
+local Main = MakeTab({Name = "سكنات ايمو"})
+local Paragraph = AddParagraph(Main, {"--حذف كل الاشياء الي في اليد--"})
 AddButton(Main, {
-  Name = "✨حذف كل الاشياء الي في اليد✨",
+  Name = "حذف كل الاشياء الي في اليد",
   Callback = function()
     local args = {
     [1] = "ClearAllTools"
@@ -781,10 +781,10 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServ
   end
 })
 
-local Paragraph = AddParagraph(Main, {"✨سكنات بنات✨"})
+local Paragraph = AddParagraph(Main, {"--سكنات بنات--"})
 
 AddButton(Main, {
-  Name = "👩سكن بنت رقم [1]👩",
+  Name = "--سكن بنت رقم [1]--",
   Callback = function()
 
 local args = {
@@ -983,7 +983,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "👩سكن بنت حلو رقم [2]👩",
+  Name = "--سكن بنت حلو رقم [2]--",
   Callback = function()
 
 local args = {
@@ -1182,7 +1182,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "👩سكن بنت رقم [3]👩",
+  Name = "--سكن بنت رقم [3]--",
   Callback = function()
 
 local args = {
@@ -1399,7 +1399,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "👩سكن بنت ازرق رقم [4]👩",
+  Name = "--سكن بنت ازرق رقم [4]--",
   Callback = function()
 
 local args = {
@@ -1606,10 +1606,10 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
   end
 })
 
-local Paragraph = AddParagraph(Main, {"✨ سكنات ولد ✨"})
+local Paragraph = AddParagraph(Main, {"-- سكنات ولد --"})
 
 AddButton(Main, {
-  Name = "🧑سكن تنين ازرق رقم [1]🧑",
+  Name = "--سكن تنين ازرق رقم [1]--",
   Callback = function()
 
 local args = {
@@ -1808,7 +1808,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "🧑سكن غـوجـو رقم [2]🧑",
+  Name = "--سكن غـوجـو رقم [2]--",
   Callback = function()
 
 local args = {
@@ -2022,7 +2022,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "🧑سكن ولد S15 رقم [3]🧑",
+  Name = "--سكن ولد S15 رقم [3]--",
   Callback = function()
 
 local args = {
@@ -2236,7 +2236,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "🧑سكن تنين ابيض رقم [4]🧑",
+  Name = "--سكن تنين ابيض رقم [4]--",
   Callback = function()
 
 local args = {
@@ -2459,7 +2459,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "🧑سكن كوبي [5]🧑",
+  Name = "--سكن كوبي [5]--",
   Callback = function()
 
 local args = {
@@ -2681,12 +2681,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
   end
 })
 
-local Main = MakeTab({Name = "✨المشيات✨ "})
+local Main = MakeTab({Name = "--المشيات-- "})
 
-local Paragraph = AddParagraph(Main, {"✨ كل المشياات الجديدة✨"})
+local Paragraph = AddParagraph(Main, {"-- كل المشياات الجديدة--"})
 
 AddButton(Main, {
-  Name = "✨ مشية جديدة✨",
+  Name = "--مشية جديدة--",
   Callback = function()
 
 local args = {
@@ -2754,7 +2754,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "✨ مشية البنات الدلوعين ✨",
+  Name = --مشية البنات الدلوعين--",
   Callback = function()
 
 local args = {
@@ -2804,7 +2804,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "✨ مشية Adidas sports ✨",
+  Name = "--مشية Adidas sports--",
   Callback = function()
 
 local args = {
@@ -2872,7 +2872,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "✨ مشية للبنات✨",
+  Name = "--مشية للبنات--",
   Callback = function()
 
 local args = {
@@ -2922,7 +2922,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "✨ مشية NFL✨",
+  Name = "--مشية NFL--",
   Callback = function()
 
 local args = {
@@ -2971,12 +2971,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
   end
 })
 
-local Main = MakeTab({Name = "✨الشعر|ايتم✨ "})
+local Main = MakeTab({Name = "--الشعر|ايتم--"})
 
-local Paragraph = AddParagraph(Main, {"✨دمج شعر ايمو✨"})
+local Paragraph = AddParagraph(Main, {"--دمج شعر ايمو--"})
 
 AddButton(Main, {
-  Name = "✨دمج ايمو اسود✨",
+  Name = "--دمج ايمو اسود--",
   Callback = function()
 
 local args = {
@@ -3017,7 +3017,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "✨دمج ايمو بني✨",
+  Name = "--دمج ايمو بني--",
   Callback = function()
 
 local args = {
@@ -3058,7 +3058,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "✨ دمج اايمو ابيض✨",
+  Name = "-- دمج اايمو ابيض--",
   Callback = function()
 
 local args = {
@@ -3098,9 +3098,9 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
   end
 })
 
-local Paragraph = AddParagraph(Main, {"✨دمج شعر كوبي ولد&بنات✨"})
+local Paragraph = AddParagraph(Main, {"--دمج شعر كوبي ولد&بنات--"})
 AddButton(Main, {
-  Name = "✨ دمج شعر كوبي للولد✨",
+  Name = "--دمج شعر كوبي للولد--",
   Callback = function()
 
 local args = {
@@ -3141,7 +3141,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 })
 
 AddButton(Main, {
-  Name = "✨ دمج شعر كوبي للبنات✨",
+  Name = "--دمج شعر كوبي للبنات--",
   Callback = function()
 
 local args = {
@@ -3181,7 +3181,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
   end
 })
 
-local Paragraph = AddParagraph(Main, {"✨ايتمات✨"})
+local Paragraph = AddParagraph(Main, {"--ايتمات--"})
 
 AddButton(Main, {
   Name = "بخاخ اسود ",
@@ -3349,13 +3349,13 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 end
 })
 
-local Main = MakeTab({Name = " ✨الاغاني✨"})
-local section = AddSection(Main, {"✨ادخل كود الاغنية✨"})
+local Main = MakeTab({Name = " --الاغاني--"})
+local section = AddSection(Main, {"--ادخل كود الاغنية--"})
  
 AddTextBox(Main, {
-  Name = "✨ادخل كود الاغنية✨",
+  Name = "ادخل كود الاغنية",
   Default = "",
-  PlaceholderText = "✨ادخل الاغنيه سكيت بورد✨",
+  PlaceholderText = "ادخل الاغنيه سكيت بورد",
   ClearText = true,
   Callback = function(Value)
 local args1 = {
@@ -3696,9 +3696,9 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
   end
 })
 
-local Main = MakeTab({Name = "✨تنقل-Teleport✨"})
+local Main = MakeTab({Name = "--تنقل-Teleport--"})
 
-local section = AddSection(Main, {"✨اختار اسم الاعب الي تبي تروح عنده✨"})
+local section = AddSection(Main, {"--اختار اسم الاعب الي تبي تروح عنده--"})
  
 local plrs = game.Players
  
@@ -3731,7 +3731,7 @@ local Dropdown = AddDropdown(Main, {
   end
 })
 AddButton(Main, {
-  Name = "✨تنقل-Teleport✨",
+  Name = "تنقل-Teleport",
   Callback = function()
     mouse = game.Players.LocalPlayer:GetMouse() 
 
@@ -3739,7 +3739,7 @@ tool = Instance.new("Tool")
 
 tool.RequiresHandle = false 
 
-tool.Name = "تنقل صنع Itachi" 
+tool.Name = "اداة تنقل Toji" 
 
 tool.Activated:connect(function() 
 
@@ -3771,7 +3771,7 @@ local function teleportToGasStation()
 end
 
 AddButton(Main, {
-    Name = "✨خلف البيت✨",
+    Name = "خلف البيت",
     Description = "",
     Callback = teleportToGasStation
 })
@@ -3782,7 +3782,7 @@ local function teleportToCenter()
 end
 
 AddButton(Main, {
-    Name = "✨امام البيت✨",
+    Name = "امام البيت",
     Description = "",
     Callback = teleportToCenter
 })
@@ -3793,7 +3793,7 @@ local function teleportToCriminal()
 end
 
 AddButton(Main, {
-    Name = "✨مخزن الأسلحة✨",
+    Name = "مخزن الأسلحة",
     Description = "Teleporta para as coordenadas do Criminal",
     Callback = teleportToCriminal
 })
@@ -3804,7 +3804,7 @@ local function teleportToHouseAbandoned()
 end
 
 AddButton(Main, {
-    Name = "✨بيت مسكون✨",
+    Name = "بيت مسكون",
     Description = "Teleporta para as coordenadas da Casa Abandonada",
     Callback = teleportToHouseAbandoned
 })
@@ -3815,7 +3815,7 @@ local function teleportToPortalAgency()
 end
 
 AddButton(Main, {
-    Name = "✨المكان السري✨",
+    Name = "المكان السري",
     Description = "Teleporta para as coordenadas do Portal da Agência",
     Callback = teleportToPortalAgency
 })
@@ -3826,7 +3826,7 @@ local function teleportToBrooksDiner()
 end
 
 AddButton(Main, {
-    Name = "✨الكافي✨",
+    Name = "الكافي",
     Description = "Teleporta para as coordenadas do Brooks Diner",
     Callback = teleportToBrooksDiner
 })
@@ -3836,7 +3836,7 @@ local function teleportToBrooksDiner()
 end
 
 AddButton(Main, {
-    Name = "✨البداية✨",
+    Name = "البداية",
     Description = "Teleporta para as coordenadas do Brooks Diner",
     Callback = teleportToBrooksDiner
 })
@@ -3846,7 +3846,7 @@ local function teleportToHospital()
 end
 
 AddButton(Main, {
-    Name = "✨المستشفى✨",
+    Name = "المستشفى",
     Description = "Teleporta para as coordenadas do Hospital",
     Callback = teleportToHospital
 })
@@ -3857,7 +3857,7 @@ local function teleportToArch()
 end
 
 AddButton(Main, {
-    Name = "✨فوق الجسر✨",
+    Name = "فوق الجسر",
     Description = "Teleporta para as coordenadas do Arco",
     Callback = teleportToArch
 })
@@ -3868,7 +3868,7 @@ local function teleportToAgency()
 end
 
 AddButton(Main, {
-    Name = "✨مكان الكهرباء✨",
+    Name = "مكان الكهرباء",
     Description = "Teleporta para as coordenadas da Agência",
     Callback = teleportToAgency
 })
@@ -3879,7 +3879,7 @@ local function teleportToHotelCenter()
 end
 
 AddButton(Main, {
-    Name = "✨البيوت✨",
+    Name = "البيوت",
     Description = "Teleporta para as coordenadas do Centro dos Hotéis",
     Callback = teleportToHotelCenter
 })
@@ -3890,7 +3890,7 @@ local function teleportToSecretRoomInWorkshop()
 end
 
 AddButton(Main, {
-    Name = "✨تحت الارض✨",
+    Name = "تحت الارض",
     Description = "Teleporta para as coordenadas da Sala Secreta na Oficina",
     Callback = teleportToSecretRoomInWorkshop
 })
@@ -3901,7 +3901,7 @@ local function teleportToSecretRoom2()
 end
 
 AddButton(Main, {
-    Name = " ✨تحت الارض✨",
+    Name = " تحت الارض",
     Description = "Teleporta para as coordenadas do Local Secreto",
     Callback = teleportToSecretLocation
 })
@@ -3911,7 +3911,7 @@ local function teleportToIsland1()
 end
 
 AddButton(Main, {
-    Name = "✨تحت الارض3✨",
+    Name = "تحت الارض3",
     Description = "Teleporta para as coordenadas da Sala Secreta 2",
     Callback = teleportToSecretRoom2
 })
@@ -3921,7 +3921,7 @@ local function teleportToSecretLocation()
 end
 
 AddButton(Main, {
-    Name = "✨المطار✨",
+    Name = "المطار",
     Description = "Teleporta para as coordenadas do Aeroporto",
     Callback = teleportToAirport
 })
@@ -3932,7 +3932,7 @@ local function teleportToLowerHouses()
 end
 
 AddButton(Main, {
-    Name = "✨الجزيرة✨",
+    Name = "الجزيرة",
     Description = "Teleporta para as coordenadas da Ilha 1",
     Callback = teleportToIsland1
 })
@@ -3943,7 +3943,7 @@ local function teleportToAirport()
 end
 
 AddButton(Main, {
-    Name = "✨في نصف الشارع✨",
+    Name = "في نصف الشارع",
     Description = "Teleporta para as coordenadas das Casas Inferiores",
     Callback = teleportToLowerHouses
 })
@@ -3954,7 +3954,7 @@ local function teleportToOnTopOfSchool()
 end
 
 AddButton(Main, {
-    Name = "✨فوق المدرية✨",
+    Name = "فوق المدرية",
     Description = "Teleporta para as coordenadas Em Cima da Escola",
     Callback = teleportToOnTopOfSchool
 })
@@ -3965,13 +3965,13 @@ local function teleportToMountain1()
 end
 
 AddButton(Main, {
-    Name = "✨فوق الجبل✨",
+    Name = "فوق الجبل",
     Description = "Teleporta para as coordenadas da Montanha 1",
     Callback = teleportToMountain1
 })
 
-local Main = MakeTab({Name = "✨السيارة✨ "})
-local Paragraph = AddParagraph(Main, {" ✨ادخل كود الاغنية✨"})
+local Main = MakeTab({Name = "--السيارة--"})
+local Paragraph = AddParagraph(Main, {" --ادخل كود الاغنية--"})
 
 AddTextBox(Main, {
   Name = "ادخل كود الاغنية",
@@ -3994,10 +3994,10 @@ local args1 = {
 end 
 })
 
-local Paragraph = AddParagraph(Main, {" ✨خصائص السيارة✨"})
+local Paragraph = AddParagraph(Main, {" --خصائص السيارة--"})
 
 AddButton(Main, {
-  Name = "  	✨نار في سياره✨ ",
+  Name = "  	نار في سياره",
   Callback = function()
     local args = {
     [1] = "Fire"
@@ -4007,7 +4007,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Player1sC
   end
 })
 AddButton(Main, {
-  Name = "✨دخان في سياره✨",
+  Name = "دخان في سياره",
   Callback = function()
     local args = {
     [1] = "Smoke"
@@ -4018,7 +4018,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Player1sC
 })
 
 AddButton(Main, {
-  Name = "  	✨تغيير عجلة السيارة✨",
+  Name = "  	تغيير عجلة السيارة",
   Callback = function()
 					local args = {
 						[1] = "WheelNumber"
@@ -4030,7 +4030,7 @@ end
 
 
 AddButton(Main, {
-  Name = "✨هورن1✨",
+  Name = "هورن1",
   Callback = function()
 					local args = {
 						[1] = "Duke"
@@ -4044,7 +4044,7 @@ end
 
 
 AddButton(Main, {
-  Name = "✨هورن2✨",
+  Name = "هورن2",
   Callback = function()
 					local args = {
 						[1] = "Duke1"
@@ -4056,7 +4056,7 @@ end
 
 
 AddButton(Main, {
-  Name = "✨تغير لون السيارة✨",
+  Name = "تغير لون السيارة",
   Callback = function()
 					local args = {
 						[1] = "PickingCarColor",
@@ -4069,9 +4069,9 @@ AddButton(Main, {
 end 
 })
 
-local Main = MakeTab({Name = "✨البيت✨"})
+local Main = MakeTab({Name = "--البيت--"})
 
-local section = AddSection(Main, {"✨ازالة الحضر من البيت✨"})
+local section = AddSection(Main, {"--ازالة الحضر من البيت--"})
 local noclipEnabled = false
 local runService = game:GetService("RunService")
 
@@ -4112,13 +4112,13 @@ end
 
 -- Adiciona o botão de alternância "Noclip"
 local Toggle = AddToggle(Main, {
-    Name = "✨شيل الطرد✨",
+    Name = "شيل الطرد",
     Default = false,
     Callback = onNoclipToggle
 })
 
 AddButton(Main, {
-  Name = "  	✨فتح وقفل كراج ✨",
+  Name = "  	فتح وقفل كراج ",
   Callback = function()
 					local args = {
 						[1] = "GarageDoor"
@@ -4131,7 +4131,7 @@ end
 
 
 AddButton(Main, {
-  Name = "  	✨فتح وغلق الشبابيك✨ ",
+  Name = "  	فتح وغلق الشبابيك ",
   Callback = function()
 					local args = {
 						[1] = "Curtains"
@@ -4143,7 +4143,7 @@ end
 
 
 AddButton(Main, {
-  Name = " ✨قفل باب بيت✨",
+  Name = " قفل باب بيت",
   Callback = function()
 					local args = {
 						[1] = "LockDoors"
@@ -4154,7 +4154,7 @@ end
 
 
 AddButton(Main, {
-  Name = "✨1اخذ تحكم بيت✨ ",
+  Name = "1اخذ تحكم بيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4166,7 +4166,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨2اخذ تحكم البيت✨",
+  Name = "2اخذ تحكم البيت",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4178,7 +4178,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨ 3اخذ تحكم البيت✨ ",
+  Name = " 3اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4190,7 +4190,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨4اخذ تحكم البيت✨ ",
+  Name = "4اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4202,7 +4202,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨5اخذ تحكم البيت✨",
+  Name = "5اخذ تحكم البيت",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4214,7 +4214,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨6اخذ تحكم البيت✨ ",
+  Name = "6اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4226,7 +4226,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨7اخذ تحكم البيت✨ ",
+  Name = "7اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4238,7 +4238,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨ 11اخذ تحكم البيت✨",
+  Name = " 11اخذ تحكم البيت",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4250,7 +4250,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨12اخذ تحكم البيت✨ ",
+  Name = "12اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4262,7 +4262,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨13اخذ تحكم البيت✨ ",
+  Name = "13اخذ تحكم البيت ",
   Callback = function()
     	local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4274,7 +4274,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨14اخذ تحكم البيت✨ ",
+  Name = "14اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4286,7 +4286,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨15اخذ تحكم البيت✨ ",
+  Name = "15اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4298,7 +4298,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨16اخذ تحكم البيت✨ ",
+  Name = "16اخذ تحكم البيت",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4310,7 +4310,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨17اخذ تحكم البيت✨ ",
+  Name = "17اخذ تحكم البيت",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4322,7 +4322,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨18اخذ تحكم البيت✨ ",
+  Name = "18اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4334,7 +4334,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨19اخذ تحكم البيت✨ ",
+  Name = "19اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4346,7 +4346,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨20اخذ تحكم البيت✨ ",
+  Name = "20اخذ تحكم البيت",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4358,7 +4358,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨21اخذ تحكم البيت✨ ",
+  Name = "21اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4370,7 +4370,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨22اخذ تحكم البيت✨ ",
+  Name = "22اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4382,7 +4382,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨23اخذ تحكم البيت✨ ",
+  Name = "23اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4394,7 +4394,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 AddButton(Main, {
-  Name = "✨24اخذ تحكم البيت✨ ",
+  Name = "24اخذ تحكم البيت ",
   Callback = function()
     local args = {
     [1] = "GivePermissionLoopToServer",
@@ -4406,8 +4406,8 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
   end
 })
 
-local Main = MakeTab({Name = "✨الاسماء✨"})
-local section = AddSection(Main, {"✨اسماء بنات✨ "})
+local Main = MakeTab({Name = "--الاسماء--"})
+local section = AddSection(Main, {"--اسماء بنات-- "})
 
 AddButton(Main, {
   Name = "شمس",
@@ -4575,7 +4575,7 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
   end
 })
-local section = AddSection(Main, {"✨اسماء اولاد✨ "})
+local section = AddSection(Main, {"--اسماء اولاد-- "})
 AddButton(Main, {
   Name = "ايتاشي",
   Callback = function()
@@ -4753,11 +4753,23 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServ
 })
 
 AddButton(Main, {
-  Name = "يوسف✨",
+  Name = "يوسف",
   Callback = function()
     local args = {
     [1] = "RolePlayName",
     [2] = "يَۈسًٌُُفَ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "سيف👑",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "سَيُف"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
@@ -4787,9 +4799,9 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
   end
 })
-local Main = MakeTab({Name = "👤الاعب👤"})
+local Main = MakeTab({Name = "--الاعب--"})
 AddButton(Main, {
-  Name = "✨يعلق السيرفر✨",
+  Name = "يعلق السيرفر",
   Callback = function()
 tools = "FireX"
         shutdownserver = true
@@ -4834,13 +4846,13 @@ tools = "FireX"
   end
 })
 AddButton(Main, {
-  Name = "✨تدمير العالم ☠️✨",
+  Name = "تدمير العالم ☠",
   Callback = function()
     game.Workspace:ClearAllChildren()
   end
 })
 AddTextBox(Main, {
-  Name = "✨سرعة | Speed✨",
+  Name = "سرعة | Speed",
   Default = "",
   PlaceholderText = "ادخل رقم",
   ClearText = true,
@@ -4858,7 +4870,7 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
   end
 })
 AddTextBox(Main, {
-  Name = "✨Fov | شاشه✨",
+  Name = "Fov | شاشه",
   Default = "",
   PlaceholderText = "ادخل رقم",
   ClearText = true,
@@ -4869,7 +4881,7 @@ Camera.FieldOfView = FovNumber
   end
 })
 AddTextBox(Main, {
-  Name = "✨Spin | دوران✨",
+  Name = "Spin | دوران",
   Default = "",
   PlaceholderText = "ادخل رقم",
   ClearText = true,
@@ -4884,7 +4896,7 @@ Spin.AngularVelocity = Vector3.new(100,Spinspeed,0)
   end
 })
 AddButton(Main, {
-  Name = "✨اضغط لاخذ الكنبة✨ ",
+  Name = "اضغط لاخذ الكنبة ",
   Callback = function()
     local args={[1]="PickingTools",[2]="Couch"};game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
   end
@@ -4966,7 +4978,7 @@ end
 
 -- Adicionando a caixa de texto para entrada do nome ou apelido do jogador
 AddTextBox(Main, {
-    Name = " ✨خلي يوزر الاعب✨",
+    Name = " خلي يوزر الاعب",
     Default = "",
     PlaceholderText = "دخل اسم اللاعب",
     ClearText = true,
@@ -5005,7 +5017,7 @@ AddTextBox(Main, {
 
 -- Adicionando o toggle para ativar/desativar a visualização
 AddToggle(Main, {
-    Name = "✨شاهد✨",
+    Name = "شاهد",
     Default = false,
     Callback = function(enabled)
         viewEnabled = enabled
@@ -5041,7 +5053,7 @@ local function maintainView()
 end
 
 AddButton(Main, {
-  Name = " ✨اعادة دخول الى سيرفر✨",
+  Name = " اعادة دخول الى سيرفر",
   Callback = function()
     local ts = game:GetService("TeleportService")
 				local p = game:GetService("Players").LocalPlayer
@@ -5051,7 +5063,7 @@ AddButton(Main, {
 })
 
 AddButton(Main, {
-  Name = "✨اختفاء اللاعب✨",
+  Name = "اختفاء اللاعب",
   Callback = function()
     local args = {
     [1] = "CharacterSizeUp",
@@ -5060,55 +5072,17 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
   end
 })
-AddTextBox(Main, {
-    Name = " ✨خلي يوزر الاعب✨",
-    Default = "",
-    PlaceholderText = "دخل اسم اللاعب",
-    ClearText = true,
-    Callback = function(value)
-        if value == "" then
-            MakeNotifi({
-                Title = "Erro",
-                Text = "Nome do jogador não foi digitado.",
-                Time = 5
-            })
-            if viewEnabled then
-                toggleView(false)
-            end
-            return
-        end
-
-        selectedViewPlayer = findPlayerByPartialNameOrNickname(value)
-        if selectedViewPlayer then
-            print("Jogador encontrado: " .. selectedViewPlayer.Name)
-            if viewEnabled then
-                toggleView(false)
-                toggleView(true)
-            end
-        else
-            MakeNotifi({
-                Title = "Erro",
-                Text = "Nenhum jogador encontrado com esse nome ou apelido.",
-                Time = 7
-            })
-            if viewEnabled then
-                toggleView(false)
-            end
-        end
-    end
-})
-
 AddButton(Main, {
-  Name = "✨اختفاء اللاعب✨",
+  Name = "إلغاء اختفاء",
   Callback = function()
     local args = {
     [1] = "CharacterSizeUp",
-    [2] = 6
+    [2] = 1
 }
-loadstring(game:HttpGet("https://pastebin.com/raw/R5yimwnZ"))()
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
   end
 })
-
 -- Variável para controlar o estado do Noclip
 local noclipEnabled = false
 local runService = game:GetService("RunService")
@@ -5148,4 +5122,9 @@ local function onNoclipToggle(value)
     end
 end
 
-https://pastebin.com/raw/R5yimwnZ
+-- Adiciona o botão de alternância "Noclip"
+local Toggle = AddToggle(Main, {
+    Name = " اخترق الجدار",
+    Default = false,
+    Callback = onNoclipToggle
+})
