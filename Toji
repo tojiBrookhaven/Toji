@@ -60,7 +60,7 @@ local Image = AddImageLabel(Main, {
   Name = "Toji",
   Image = "rbxassetid://117086432101752"
 })
-local Paragraph = AddParagraph(Main, {"✨حساباتي لل توصل معي لو تبون اي شي اضيفه لل سكربت✨ ", "bom dia meus manos"})
+local Paragraph = AddParagraph(Main, {"$حساباتي لل توصل معي لو تبون اي شي اضيفه لل سكربت$ ", "bom dia meus manos"})
 AddButton(Main, {
   Name = " انسخ حسابي تيك ",
   Callback = function()
