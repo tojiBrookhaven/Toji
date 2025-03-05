@@ -212,7 +212,7 @@ local Paragraph = AddParagraph(Main, {"--تخريب+حماية--"})
 AddButton(Main, {
   Name = "--تهكير السيارات--",
   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tojiBrookhaven/Toji/refs/heads/main/تخريب%20سيارات"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/b7kDC3zp"))()
   end
 })
 
@@ -241,6 +241,35 @@ AddButton(Main, {
   Name = "--سكربـت محد يقدر يطيركـك--",
   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() 
+  end
+})
+
+local Paragraph = AddParagraph(Main, {"--صملات متنوعة-- "})
+AddButton(Main, {
+  Name = "AFK[1] ",
+  Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AntiAFK-script-18076"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "AFK [2] ",
+  Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-RBX-Anti-Afk-script-23931"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "AFK [3] ",
+  Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-afk-script-5795"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "AFK [4] ",
+  Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-asgf-syugfGF-v-5831"))()
   end
 })
 
