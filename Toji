@@ -24,7 +24,7 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 5;
 })
 
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/Brookhaven198/-itachi-iraq/refs/heads/main/UZuJkcKv.txt")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/tojiBrookhaven/Toji/refs/heads/main/الواجهة")))()
 MakeWindow({
   Hub = {
     Title = "سكربت toji | SCRPIT toji  ",
