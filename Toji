@@ -212,7 +212,7 @@ local Paragraph = AddParagraph(Main, {"--تخريب+حماية--"})
 AddButton(Main, {
   Name = "--تهكير السيارات--",
   Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/b7kDC3zp"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tojiBrookhaven/Toji/refs/heads/main/تخريب%20سيارات"))()
   end
 })
 
@@ -248,30 +248,51 @@ local Paragraph = AddParagraph(Main, {"--صملات متنوعة-- "})
 AddButton(Main, {
   Name = "AFK[1] ",
   Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AntiAFK-script-18076"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AntiAFK-v-AntiKick-V3-v-Kick-Attempt-Logger-27977"))()
   end
 })
 
 AddButton(Main, {
   Name = "AFK [2] ",
   Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-RBX-Anti-Afk-script-23931"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
   end
 })
 
 AddButton(Main, {
   Name = "AFK [3] ",
   Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-afk-script-5795"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/brosula123/Anti-afk/main/Bl%C3%B8xzScript"))()
   end
 })
 
 AddButton(Main, {
   Name = "AFK [4] ",
   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AntiAFK-script-18076"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "AFK [5] ",
+  Callback = function()
+loadstring(game:HttpGet("https://zxfolix.github.io/antiafk.lua"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "AFK [6] ",
+  Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-asgf-syugfGF-v-5831"))()
   end
 })
+
+AddButton(Main, {
+  Name = "AFK [7] ",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true"))()
+  end
+}
 
 local Main = MakeTab({Name = "-- رؤوس ورجل--"})
 local Paragraph = AddParagraph(Main, {"-الرؤوس-", "bom dia meus manos"})
