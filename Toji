@@ -292,7 +292,7 @@ AddButton(Main, {
   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true"))()
   end
-}
+})
 
 local Main = MakeTab({Name = "-- رؤوس ورجل--"})
 local Paragraph = AddParagraph(Main, {"-الرؤوس-", "bom dia meus manos"})
