@@ -244,49 +244,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-to
   end
 })
 
-local Paragraph = AddParagraph(Main, {"--صملات متنوعة-- "})
-AddButton(Main, {
-  Name = "AFK[1] ",
-  Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AntiAFK-v-AntiKick-V3-v-Kick-Attempt-Logger-27977"))()
-  end
-})
-
-AddButton(Main, {
-  Name = "AFK [2] ",
-  Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
-  end
-})
-
-AddButton(Main, {
-  Name = "AFK [3] ",
-  Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/brosula123/Anti-afk/main/Bl%C3%B8xzScript"))()
-  end
-})
-
-AddButton(Main, {
-  Name = "AFK [4] ",
-  Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AntiAFK-script-18076"))()
-  end
-})
-
-AddButton(Main, {
-  Name = "AFK [5] ",
-  Callback = function()
-loadstring(game:HttpGet("https://zxfolix.github.io/antiafk.lua"))()
-  end
-})
-
-AddButton(Main, {
-  Name = "AFK [6] ",
-  Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-asgf-syugfGF-v-5831"))()
-  end
-})
-
 local Main = MakeTab({Name = "-- رؤوس ورجل--"})
 local Paragraph = AddParagraph(Main, {"-الرؤوس-", "bom dia meus manos"})
 AddButton(Main, {
