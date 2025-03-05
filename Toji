@@ -46,19 +46,19 @@ MakeWindow({
 })
 
 MinimizeButton({
-  Image = "rbxassetid://115714662895227",
+  Image = "rbxassetid://117086432101752",
   Size = {50, 50},
-  Color = Color3.fromRGB(255, 0, 0),
+  Color = Color3.fromRGB(230, 230, 230),
   Corner = true,
   Stroke = true,
-  StrokeColor = Color3.fromRGB(255, 0, 0)
+  StrokeColor = Color3.fromRGB(230, 230, 230)
 })
 
 
 local Main = MakeTab({Name = "-الحقوق-"})
 local Image = AddImageLabel(Main, {
-  Name = "ITACHI  KING ",
-  Image = "rbxassetid://132581937835303"
+  Name = "Toji",
+  Image = "rbxassetid://117086432101752"
 })
 local Paragraph = AddParagraph(Main, {"✨حساباتي لل توصل معي لو تبون اي شي اضيفه لل سكربت✨ ", "bom dia meus manos"})
 AddButton(Main, {
