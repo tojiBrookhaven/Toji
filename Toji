@@ -287,13 +287,6 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-asgf-syugfG
   end
 })
 
-AddButton(Main, {
-  Name = "AFK [7] ",
-  Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true"))()
-  end
-})
-
 local Main = MakeTab({Name = "-- رؤوس ورجل--"})
 local Paragraph = AddParagraph(Main, {"-الرؤوس-", "bom dia meus manos"})
 AddButton(Main, {
