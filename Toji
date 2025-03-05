@@ -176,7 +176,7 @@ AddButton(Main, {
 AddButton(Main, {
   Name = "--سكربت طيران--",
   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Brookhaven198/-itachi-iraq/refs/heads/main/طيران%20صنعي"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tojiBrookhaven/Toji/refs/heads/main/طيران"))()
   end
 })
 
