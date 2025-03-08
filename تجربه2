@@ -1,1 +1,295 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/thepro1npc/randomscripts/main/rayfield%20loader'))()
+local Window = Rayfield:CreateWindow({
+    Name = "ScripterJay's Troller",
+    LoadingTitle = "The Ultimate ScripterJay Troller",
+    LoadingSubtitle = "Made By ScripterJay",
+    ConfigurationSaving = {
+       Enabled = false,
+       FolderName = nil,
+       FileName = "Big Hub"
+    },
+    Discord = {
+       Enabled = false,
+       Invite = "noinvitelink",
+       RememberJoins = true
+    },
+    KeySystem = false,
+    KeySettings = {
+       Title = "TEST TITLE",
+       Subtitle = "Key System",
+       Note = "No method of obtaining the key is provided",
+       FileName = "Key",
+       SaveKey = true,
+       GrabKeyFromSite = false,
+       Key = {"test"}
+    }
+})
 
+local groupId = 10261023
+local hrRankNames = { "Junior Director", "Senior Director", "Head Director", "Corporate Intern", "Junior Corporate", "Senior Corporate", "Head Corporate", "Chief Human Resources Officer", "Chief Public Relations Officer", "Chief Operating Officer", "Chief Administrative Officer", "Developer", "Vice Chairman", "Chairman" }
+local mrRankNames = { "Shift Leader", "Supervisor", "Assistant Manager", "General Manager" }
+
+local function sendNotification(title, message)
+    Rayfield:Notify({
+        Title = title,
+        Content = message,
+        Duration = 8,
+        Image = 10709775560,
+    })
+end
+
+local function countPlayersByRank(rankNames)
+    local count = 0
+    for _, player in ipairs(game.Players:GetPlayers()) do
+        local success, rank = pcall(function()
+            return player:GetRoleInGroup(groupId)
+        end)
+        if success and table.find(rankNames, rank) then
+            count = count + 1
+        end
+    end
+    return count
+end
+
+local function checkAndNotifyHR(player)
+    local success, rank = pcall(function()
+        return player:GetRoleInGroup(groupId)
+    end)
+    if success and table.find(hrRankNames, rank) then
+        sendNotification("HR Join", player.Name .. " (" .. rank .. ") has joined the game.")
+    end
+end
+
+sendNotification("NOTIFICATION", "Scanner is WORKING. You will be notified whenever an HR joins.")
+game.Players.PlayerAdded:Connect(checkAndNotifyHR)
+
+local function flingAll()
+    for _, v in pairs(workspace.SpawnedCars:GetChildren()) do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.PrimaryPart.CFrame
+        task.wait(0.2)
+    end
+end
+
+local function moveToPositions(positions)
+    for _, position in ipairs(positions) do
+        game.Players.LocalPlayer.Character:MoveTo(position)
+        wait(0.2)
+    end
+end
+
+local positions = {
+    Vector3.new(1793, -9, -5064), Vector3.new(1794, -9, -5257), Vector3.new(1665, -9, -5327),
+    Vector3.new(1622, -9, -5184), Vector3.new(1480, 34, -5191), Vector3.new(1348, -3, -5505),
+    Vector3.new(1341, -3, -5166), Vector3.new(1229, -10, -5430), Vector3.new(1229, -10, -5758),
+    Vector3.new(1162, -10, -5835), Vector3.new(1156, -10, -5694), Vector3.new(1156, -11, -5538),
+    Vector3.new(1174, -11, -5248), Vector3.new(1169, -11, -5072), Vector3.new(1324, -9, -5071),
+    Vector3.new(1498, -9, -5077), Vector3.new(1512, -5, -5076)
+}
+
+local Tab = Window:CreateTab("Main Page", 4483362458)
+local Section = Tab:CreateSection("Main Page")
+
+Tab:CreateButton({
+    Name = "Auto Complete Obby",
+    Callback = function()
+        local natureObbyPortal = workspace:FindFirstChild("Portals") and workspace.Portals:FindFirstChild("Portals") and workspace.Portals.Portals:FindFirstChild("NatureObbyPortal")
+        if natureObbyPortal then
+            for _, descendant in ipairs(natureObbyPortal:GetDescendants()) do
+                if descendant:IsA("BasePart") then
+                    descendant.CanCollide = false
+                end
+            end
+            moveToPositions(positions)
+        else
+            warn("NatureObbyPortal not found.")
+        end
+    end
+})
+
+Tab:CreateButton({
+    Name = "Fling Users in Cars",
+    Callback = flingAll,
+})
+
+Tab:CreateButton({
+    Name = "Fling GUI",
+    Callback = function ()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'))()
+    end
+})
+
+Tab:CreateButton({
+    Name = "Infinite Yield",
+    Callback = function ()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+})
+
+Tab:CreateButton({
+    Name = "Rejoin Game",
+    Callback = function()
+        local player = game.Players.LocalPlayer
+        if player then
+            player:Kick("Rejoining game...")
+            wait(1)
+            game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, player)
+        end
+    end
+})
+
+Tab:CreateButton({
+    Name = "Open Any Door (client-sided)",
+    Callback = function ()
+        game.Players.LocalPlayer.GroupInfo.Rank.Value = 255
+    end
+})
+
+Tab:CreateButton({
+    Name = "Scan for HR's!",
+    Callback = function()
+        local hrCount = countPlayersByRank(hrRankNames)
+        local hrUsernames = {}
+        for _, player in ipairs(game.Players:GetPlayers()) do
+            local success, rank = pcall(function()
+                return player:GetRoleInGroup(groupId)
+            end)
+            if success and table.find(hrRankNames, rank) then
+                table.insert(hrUsernames, player.Name)
+            end
+        end
+        local hrUsernamesStr = table.concat(hrUsernames, ", ")
+        sendNotification("HR SCAN", "There are " .. hrCount .. " HR's in-game:\n" .. hrUsernamesStr)
+        print("HR scan completed")
+    end
+})
+
+Tab:CreateButton({
+    Name = "Scan for MR's!",
+    Callback = function()
+        local mrCount = countPlayersByRank(mrRankNames)
+        local mrUsernames = {}
+        for _, player in ipairs(game.Players:GetPlayers()) do
+            local success, rank = pcall(function()
+                return player:GetRoleInGroup(groupId)
+            end)
+            if success and table.find(mrRankNames, rank) then
+                table.insert(mrUsernames, player.Name)
+            end
+        end
+        local mrUsernamesStr = table.concat(mrUsernames, ", ")
+        sendNotification("MR SCAN", "There are " .. mrCount .. " MR's in-game:\n" .. mrUsernamesStr)
+        print("MR scan completed")
+    end
+})
+
+local isSpamming = false
+Tab:CreateToggle({
+    Name = "Spam Discord Invite",
+    CurrentValue = false,
+    Flag = "SpamToggle",
+    Callback = function(Value)
+        isSpamming = Value
+        if isSpamming then
+            spawn(function()
+                while isSpamming do
+                    wait(1)
+                    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(". g g / rоblоxtrоllеrѕ", "All")
+                end
+            end)
+        end
+    end
+})
+
+local Active = false
+local function RandomString(length)
+    local a = ""
+    for i = 1, length do
+        a = a .. string.char(math.random(32, 126))
+    end
+    return a
+end
+
+game:GetService('RunService').RenderStepped:Connect(function()
+    for _, v in workspace.Nametags:GetChildren() do
+        if v:IsA('BillboardGui') and v:FindFirstChild('TextLabel') then
+            if Active then
+                v.TextLabel.Text = RandomString(6)
+            end
+        end
+    end
+end)
+
+Tab:CreateToggle({
+    Name = "Randomize Usernames",
+    CurrentValue = false,
+    Flag = "RandomizeUsernames",
+    Callback = function(value)
+        Active = value
+    end
+})
+
+Tab:CreateButton({
+    Name = "Make Chat Tag All",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/afitcoder/Random-scripts/main/Check_2%20-%20Chat%20Tag%20All%20v2.lua"))()
+    end
+})
+
+function r15(plr)
+	if plr.Character:FindFirstChildOfClass('Humanoid').RigType == Enum.HumanoidRigType.R15 then
+		return true
+	end
+end
+
+
+function getTorso(x)
+	x = x or game.Players.LocalPlayer.Character
+	return x:FindFirstChild("Torso") or x:FindFirstChild("UpperTorso") or x:FindFirstChild("LowerTorso") or x:FindFirstChild("HumanoidRootPart")
+end
+
+function getRoot(char)
+	local rootPart = char:FindFirstChild('HumanoidRootPart') or char:FindFirstChild('Torso') or char:FindFirstChild('UpperTorso')
+	return rootPart
+end
+
+local RunService = game:GetService('RunService')
+local player = game.Players.LocalPlayer
+
+local humanoid = player.Character:FindFirstChildWhichIsA("Humanoid")
+local bangDied
+local bangLoop
+bangAnim = Instance.new("Animation")
+bangAnim.AnimationId = not r15(player) and "rbxassetid://148840371" or "rbxassetid://5918726674"
+bang = humanoid:LoadAnimation(bangAnim)
+bang:Play(0.1, 1, 1)
+bang:AdjustSpeed(100)
+bangDied = humanoid.Died:Connect(function()
+	bang:Stop()
+	bangAnim:Destroy()
+	bangDied:Disconnect()
+	bangLoop:Disconnect()
+end)
+
+local target = game.Players:GetPlayers()[1]
+local bangOffset = CFrame.new(0, 0, 1.1)
+
+bangLoop = RunService.Stepped:Connect(function()
+	pcall(function()
+		local otherRoot = getTorso(target.Character)
+		getRoot(player.Character).CFrame = otherRoot.CFrame * bangOffset
+	end)
+end)
+
+for i, v in pairs(game.Players:GetPlayers()) do
+	target = v
+	task.wait(2)
+end
+
+task.wait(2)
+
+if bangDied then
+	bangDied:Disconnect()
+	bang:Stop()
+	bangAnim:Destroy()
+	bangLoop:Disconnect()
+end
