@@ -14,7 +14,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServ
 wait(0.1)
 local args = {
     [1] = "RolePlayBio",
-    [2] = "😇سكربت المطور MARTIN"}
+    [2] = "سكربت المطور مارتن"}
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 wait(0.5)
