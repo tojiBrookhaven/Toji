@@ -192,7 +192,7 @@ Title.Size = UDim2.new(1.02, 0, 0, 40)
 
 Title.Position = UDim2.new(0, 0, 0, 0)
 
-Title.Text = "    تخريب الماب|المطور MARTIN "
+Title.Text = "    تخريب الماب|المطور مارتن "
 
 Title.TextColor3 = Color3.fromRGB(0, 0, 0)
 
@@ -646,7 +646,7 @@ IncreaseRadius.MouseButton1Click:Connect(function()
 
     radius = math.min(10000, radius + 5)
 
-    RadiusDisplay.Text = "Радиус: " .. radius
+    RadiusDisplay.Text = "حد الدائرة: " .. radius
 
     playSound("12221967")
 
